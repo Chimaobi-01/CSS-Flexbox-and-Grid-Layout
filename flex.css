@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');;
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+body 
+{
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+}
+.box
+{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+.box .innerBx0
+{
+    background: hsl(31, 77%, 52%);
+    padding: 50px;
+    border-radius: 10px 0 0 10px;
+}
+.box .innerBx0 p, .box .innerBx1 p, .box .innerBx2 p
+{
+   
+    font-size: 15px;
+    filter: brightness(85%);
+    margin-bottom: 50px;
+    
+}
+.box .innerBx0 h3, .box .innerBx1 h3, .box .innerBx2 h3
+{
+  
+   font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.box .innerBx0 button
+{
+    margin: 30px 10px 10px 0;
+    padding: 10px 20px 10px 20px;
+    color: hsl(31, 77%, 52%);
+    background: white;
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+.box .innerBx0 button:hover
+{
+    color: whitesmoke;
+    background: hsl(31, 77%, 52%);
+    border: solid 2px white;
+    
+}
+.box .innerBx1 button
+{
+    margin: 30px 10px 10px 0;
+    padding: 10px 20px 10px 20px;
+    color: hsl(184, 100%, 22%);
+    background: white;
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+.box .innerBx1 button:hover
+{
+    color: whitesmoke;
+    background: hsl(184, 100%, 22%);
+    border: solid 2px white;
+    
+}
+.box .innerBx2 button
+{
+    margin: 30px 10px 10px 0;
+    padding: 10px 20px 10px 20px;
+    color: hsl(179, 100%, 13%);
+    background: white;
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+.box .innerBx2 button:hover
+{
+    color: whitesmoke;
+    background: hsl(179, 100%, 13%);
+    border: solid 2px white;
+    
+}
+.box .innerBx1
+{
+    background:hsl(184, 100%, 22%) ;
+    padding: 50px;
+    
+}
+.box .innerBx2
+{
+    background: hsl(179, 100%, 13%);
+    padding: 50px;
+    border-radius: 0 10px 10px 0;
+}
