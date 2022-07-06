@@ -10,7 +10,76 @@
     margin: 0;
     padding: 0;
 }
-body
+header{
+  width: 100%;
+  margin: auto;
+  padding: 20px 10px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+
+}
+header .logo{
+  color: #111;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+}
+header ul
+{
+  
+  display: flex;
+
+
+}
+header ul li
+{
+  
+  list-style: none;
+  
+
+}
+header ul li a {
+  
+  display: inline-block;
+  margin: 0 30px;
+  color: #4a4aff;
+  text-decoration: none;
+   font-size: 2em;
+  font-weight: 300;
+
+}
+header ul li a:hover
+{
+  color: #4a4aff;
+  
+}
+.titleText
+{
+  color: #4a4aff;
+  font-size: 2em;
+  font-weight: 300;
+}
+.titleText span
+{
+  color: black;
+  font-weight: 700 ;
+  font-size: 1.3em;
+}
+
+
+
+
+
+
+
+.flex
 {
     display: flex;
     place-items: center;
@@ -63,12 +132,25 @@ main div
     </style>
 </head>
 <body>
+  <header>
+    <h2 class='titleText'><span>W</span>elcome</h2>
+    <nav>
+      <ul>
+        <li><a href='index.html'>Flex</a></li>
+        <li><a href='contact.html'>Grid</a></li>
+       
+      </ul>
+    </nav>
+  </header>
+  <div class="flex">
     <main>
-        <div class="a"></div>
-        <div class="b"></div>
-        <div class="c"></div>
-        <div class="d"></div>
-        <div class="e"></div>
-    </main>
+      <div class="a"></div>
+      <div class="b"></div>
+      <div class="c"></div>
+      <div class="d"></div>
+      <div class="e"></div>
+  </main>
+  </div>
+   
 </body>
 </html>
